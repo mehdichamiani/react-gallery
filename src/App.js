@@ -36,7 +36,7 @@ function App() {
 					} else if (searchQuery) {
 						return [...oldPhotos, ...allPhotos.results];
 					} else {
-						return [...oldPhotos, ...allPhotos];
+						return [];
 					}
 				})
 			);
